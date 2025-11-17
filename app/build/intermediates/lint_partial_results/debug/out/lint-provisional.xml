@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="conditional_incidents">
+
+    <incident
+        id="PermissionImpliesUnsupportedChromeOsHardware"
+        severity="error"
+        message="Permission exists without corresponding hardware `&lt;uses-feature android:name=&quot;android.hardware.telephony&quot; required=&quot;false&quot;>` tag">
+        <fix-data featureName="android.hardware.telephony"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="5"
+            column="6"
+            startOffset="192"
+            endLine="5"
+            endColumn="21"
+            endOffset="207"/>
+        <map>
+            <condition library="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="PermissionImpliesUnsupportedChromeOsHardware"
+        severity="error"
+        message="Permission exists without corresponding hardware `&lt;uses-feature android:name=&quot;android.hardware.telephony&quot; required=&quot;false&quot;>` tag">
+        <fix-data featureName="android.hardware.telephony"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="6"
+            column="6"
+            startOffset="261"
+            endLine="6"
+            endColumn="21"
+            endOffset="276"/>
+        <map>
+            <condition library="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with `checkPermission`) or explicitly handle a potential `SecurityException`">
+        <fix-data missing="android.permission.POST_NOTIFICATIONS" requirement="android.permission.POST_NOTIFICATIONS"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/MainActivity.kt"
+            line="155"
+            column="54"
+            startOffset="5365"
+            endLine="155"
+            endColumn="80"
+            endOffset="5391"/>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with `checkPermission`) or explicitly handle a potential `SecurityException`">
+        <fix-data missing="android.permission.POST_NOTIFICATIONS" requirement="android.permission.POST_NOTIFICATIONS"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/SettingsActivity.kt"
+            line="136"
+            column="13"
+            startOffset="6901"
+            endLine="136"
+            endColumn="100"
+            endOffset="6988"/>
+    </incident>
+
+</incidents>

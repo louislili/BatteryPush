@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_call">#2196F3</color>
+    <color name="color_info">#607D8B</color>
+    <color name="color_notification">#4CAF50</color>
+    <color name="color_sms">#FF9800</color>
+    <color name="color_webhook">#9C27B0</color>
+    <string name="app_name">PushApp</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+</resources>

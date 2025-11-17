@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.pushapp.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.CALL (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/MainActivity.kt"
+                            line="170"
+                            column="22"
+                            startOffset="5941"
+                            endLine="170"
+                            endColumn="74"
+                            endOffset="5993"/>
+                        <location id="1"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/SettingsActivity.kt"
+                            line="151"
+                            column="23"
+                            startOffset="7524"
+                            endLine="151"
+                            endColumn="75"
+                            endOffset="7576"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.app_name"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="2"
+            column="13"
+            startOffset="24"
+            endLine="2"
+            endColumn="28"
+            endOffset="39"/>
+        <entry
+            name="model"
+            string="attr[colorPrimary(R),actionBarSize(R),selectableItemBackgroundBorderless(R)],color[color_sms(U),color_call(U),color_info(U),color_webhook(U),color_notification(U)],drawable[ic_call(U),ic_webhook(U),ic_notification(U),ic_settings(U),ic_sms(U),ic_info(U)],id[button_clear(U),text_log_content(U),edit_sms_phone(U),text_log_time(U),text_log_title(U),button_settings(U),switch_call(U),edit_webhook_secret(U),text_battery_level(U),toolbar(D),text_device_model(U),edit_webhook(U),switch_webhook(U),icon_log(U),recycler_logs(U),edit_call_phone(U),switch_webhook_sign(U),switch_notify(U),button_execute(U),switch_master(U),switch_sms(U)],layout[item_log(U),activity_main(U),activity_settings(U)],string[app_name(D)],style[Widget_MaterialComponents_Button_TextButton(R)];24^0^1^2^b^27;;;"/>
+    </map>
+
+</incidents>

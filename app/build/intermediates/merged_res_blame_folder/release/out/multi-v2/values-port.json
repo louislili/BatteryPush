@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.pushapp-mergeReleaseResources-34:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/guyucem/.gradle/caches/transforms-3/8e3dbcb9ab9b01d8a02b73da5f7eaafe/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

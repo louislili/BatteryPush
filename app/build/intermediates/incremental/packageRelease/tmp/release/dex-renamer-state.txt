@@ -1,0 +1,4 @@
+#Mon Nov 17 11:17:33 CST 2025
+base.0=/Users/guyucem/Documents/push_app/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

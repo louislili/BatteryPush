@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="incidents">
+
+    <incident
+        id="VectorPath"
+        severity="warning"
+        message="Very long vector path (913 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_settings.xml"
+            line="9"
+            column="27"
+            startOffset="293"
+            endLine="9"
+            endColumn="940"
+            endOffset="1206"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;电池监控&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="22"
+            column="13"
+            startOffset="904"
+            endLine="22"
+            endColumn="32"
+            endOffset="923"/>
+    </incident>
+
+    <incident
+        id="UseAppTint"
+        severity="error"
+        message="Must use `app:tint` instead of `android:tint`">
+        <fix-composite>
+            <fix-attribute
+                description="Set tint=&quot;@android:color/white&quot;"
+                namespace="http://schemas.android.com/apk/res-auto"
+                attribute="tint"
+                value="@android:color/white"/>
+            <fix-attribute
+                description="Delete tint"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="tint"/>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="35"
+            column="13"
+            startOffset="1420"
+            endLine="35"
+            endColumn="48"
+            endOffset="1455"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="27"
+            column="10"
+            startOffset="1063"
+            endLine="27"
+            endColumn="21"
+            endOffset="1074"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;自动执行&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="77"
+            column="29"
+            startOffset="3093"
+            endLine="77"
+            endColumn="48"
+            endOffset="3112"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;打开应用时自动执行所有操作&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="85"
+            column="29"
+            startOffset="3469"
+            endLine="85"
+            endColumn="57"
+            endOffset="3497"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;设备状态&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="120"
+            column="25"
+            startOffset="4911"
+            endLine="120"
+            endColumn="44"
+            endOffset="4930"/>
+    </incident>
+
+    <incident
+        id="DisableBaselineAlignment"
+        severity="warning"
+        message="Set `android:baselineAligned=&quot;false&quot;` on this element for better performance">
+        <fix-attribute
+            description="Set baselineAligned=&quot;false&quot;"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="baselineAligned"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="126"
+            column="22"
+            startOffset="5164"
+            endLine="126"
+            endColumn="34"
+            endOffset="5176"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;设备型号&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="141"
+            column="33"
+            startOffset="5882"
+            endLine="141"
+            endColumn="52"
+            endOffset="5901"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Loading...&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="149"
+            column="33"
+            startOffset="6297"
+            endLine="149"
+            endColumn="58"
+            endOffset="6322"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;电池电量&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="166"
+            column="33"
+            startOffset="7073"
+            endLine="166"
+            endColumn="52"
+            endOffset="7092"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Loading...&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="174"
+            column="33"
+            startOffset="7489"
+            endLine="174"
+            endColumn="58"
+            endOffset="7514"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;执行记录&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="199"
+            column="21"
+            startOffset="8395"
+            endLine="199"
+            endColumn="40"
+            endOffset="8414"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;清空&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="209"
+            column="21"
+            startOffset="8886"
+            endLine="209"
+            endColumn="38"
+            endOffset="8903"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialXml"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="12"
+            column="9"
+            startOffset="376"
+            endLine="16"
+            endColumn="41"
+            endOffset="565"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;打开APP执行总开关&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="16"
+            column="13"
+            startOffset="537"
+            endLine="16"
+            endColumn="38"
+            endOffset="562"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialXml"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="18"
+            column="9"
+            startOffset="575"
+            endLine="22"
+            endColumn="39"
+            endOffset="762"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;推送当前电量通知&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="22"
+            column="13"
+            startOffset="736"
+            endLine="22"
+            endColumn="36"
+            endOffset="759"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialXml"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="24"
+            column="9"
+            startOffset="772"
+            endLine="28"
+            endColumn="35"
+            endOffset="953"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;拨打电话&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="28"
+            column="13"
+            startOffset="931"
+            endLine="28"
+            endColumn="32"
+            endOffset="950"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialXml"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="30"
+            column="9"
+            startOffset="963"
+            endLine="34"
+            endColumn="35"
+            endOffset="1143"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;发送短信&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="34"
+            column="13"
+            startOffset="1121"
+            endLine="34"
+            endColumn="32"
+            endOffset="1140"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialXml"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="36"
+            column="9"
+            startOffset="1153"
+            endLine="40"
+            endColumn="41"
+            endOffset="1343"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Webhook 上报&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="40"
+            column="13"
+            startOffset="1315"
+            endLine="40"
+            endColumn="38"
+            endOffset="1340"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="44"
+            column="10"
+            startOffset="1436"
+            endLine="44"
+            endColumn="18"
+            endOffset="1444"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;拨打电话的号码&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="49"
+            column="13"
+            startOffset="1638"
+            endLine="49"
+            endColumn="35"
+            endOffset="1660"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="51"
+            column="10"
+            startOffset="1674"
+            endLine="51"
+            endColumn="18"
+            endOffset="1682"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;发送短信的号码&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="56"
+            column="13"
+            startOffset="1875"
+            endLine="56"
+            endColumn="35"
+            endOffset="1897"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="58"
+            column="10"
+            startOffset="1911"
+            endLine="58"
+            endColumn="18"
+            endOffset="1919"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Webhook URL&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="63"
+            column="13"
+            startOffset="2112"
+            endLine="63"
+            endColumn="39"
+            endOffset="2138"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialXml"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="65"
+            column="9"
+            startOffset="2151"
+            endLine="69"
+            endColumn="42"
+            endOffset="2347"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Webhook签名校验&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="69"
+            column="13"
+            startOffset="2318"
+            endLine="69"
+            endColumn="39"
+            endOffset="2344"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="71"
+            column="10"
+            startOffset="2358"
+            endLine="71"
+            endColumn="18"
+            endOffset="2366"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Webhook Secret(可选)&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="76"
+            column="13"
+            startOffset="2571"
+            endLine="76"
+            endColumn="46"
+            endOffset="2604"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;立即执行&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_settings.xml"
+            line="84"
+            column="13"
+            startOffset="2861"
+            endLine="84"
+            endColumn="32"
+            endOffset="2880"/>
+    </incident>
+
+    <incident
+        id="UseAppTint"
+        severity="error"
+        message="Must use `app:tint` instead of `android:tint`">
+        <fix-composite>
+            <fix-attribute
+                description="Set tint=&quot;@android:color/white&quot;"
+                namespace="http://schemas.android.com/apk/res-auto"
+                attribute="tint"
+                value="@android:color/white"/>
+            <fix-attribute
+                description="Delete tint"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="tint"/>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_log.xml"
+            line="23"
+            column="13"
+            startOffset="822"
+            endLine="23"
+            endColumn="48"
+            endOffset="857"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_log.xml"
+            line="18"
+            column="10"
+            startOffset="636"
+            endLine="18"
+            endColumn="19"
+            endOffset="645"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/LogAdapter.kt"
+            line="58"
+            column="42"
+            startOffset="2724"
+            endLine="58"
+            endColumn="49"
+            endOffset="2731"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialCode"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/MainActivity.kt"
+            line="46"
+            column="5"
+            startOffset="1480"
+            endLine="46"
+            endColumn="46"
+            endOffset="1521"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/MainActivity.kt"
+            line="257"
+            column="33"
+            startOffset="9466"
+            endLine="257"
+            endColumn="40"
+            endOffset="9473"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialCode"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/SettingsActivity.kt"
+            line="24"
+            column="5"
+            startOffset="734"
+            endLine="24"
+            endColumn="46"
+            endOffset="775"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialCode"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/SettingsActivity.kt"
+            line="25"
+            column="5"
+            startOffset="780"
+            endLine="25"
+            endColumn="46"
+            endOffset="821"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialCode"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/SettingsActivity.kt"
+            line="26"
+            column="5"
+            startOffset="826"
+            endLine="26"
+            endColumn="44"
+            endOffset="865"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialCode"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/SettingsActivity.kt"
+            line="27"
+            column="5"
+            startOffset="870"
+            endLine="27"
+            endColumn="43"
+            endOffset="908"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialCode"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/SettingsActivity.kt"
+            line="28"
+            column="5"
+            startOffset="913"
+            endLine="28"
+            endColumn="47"
+            endOffset="955"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialCode"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/pushapp/SettingsActivity.kt"
+            line="29"
+            column="5"
+            startOffset="960"
+            endLine="29"
+            endColumn="51"
+            endOffset="1006"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="34"
+            replacement="35"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="11"
+            column="9"
+            startOffset="241"
+            endLine="11"
+            endColumn="21"
+            endOffset="253"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-ktx than 1.8.0 is available: 1.11.0">
+        <fix-replace
+            description="Change to 1.11.0"
+            family="Update versions"
+            oldString="1.8.0"
+            replacement="1.11.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="36"
+            column="20"
+            startOffset="886"
+            endLine="36"
+            endColumn="58"
+            endOffset="924"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0">
+        <fix-replace
+            description="Change to 1.4.0"
+            family="Update versions"
+            oldString="1.3.2"
+            replacement="1.4.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="37"
+            column="20"
+            startOffset="944"
+            endLine="37"
+            endColumn="62"
+            endOffset="986"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#f5f5f5` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="7"
+            column="5"
+            startOffset="343"
+            endLine="7"
+            endColumn="33"
+            endOffset="371"/>
+    </incident>
+
+</incidents>

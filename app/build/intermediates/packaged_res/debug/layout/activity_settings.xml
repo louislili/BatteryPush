@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switch_master"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开APP执行总开关" />
+
+        <Switch
+            android:id="@+id/switch_notify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="推送当前电量通知" />
+
+        <Switch
+            android:id="@+id/switch_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拨打电话" />
+
+        <Switch
+            android:id="@+id/switch_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送短信" />
+
+        <Switch
+            android:id="@+id/switch_webhook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Webhook 上报" />
+
+        <View android:layout_width="match_parent" android:layout_height="8dp" />
+
+        <EditText
+            android:id="@+id/edit_call_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="拨打电话的号码" />
+
+        <EditText
+            android:id="@+id/edit_sms_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="发送短信的号码" />
+
+        <EditText
+            android:id="@+id/edit_webhook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:hint="Webhook URL" />
+
+        <Switch
+            android:id="@+id/switch_webhook_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Webhook签名校验" />
+
+        <EditText
+            android:id="@+id/edit_webhook_secret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Webhook Secret(可选)" />
+
+        <View android:layout_width="match_parent" android:layout_height="8dp" />
+
+        <Button
+            android:id="@+id/button_execute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="立即执行" />
+
+    </LinearLayout>
+
+</ScrollView>

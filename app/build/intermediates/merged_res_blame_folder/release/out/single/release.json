@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.pushapp-merged_res-36:/drawable_ic_settings.xml.flat",
+        "source": "com.example.pushapp-main-37:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.example.pushapp-merged_res-36:/layout_activity_settings.xml.flat",
+        "source": "com.example.pushapp-main-37:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.pushapp-merged_res-36:/drawable_ic_call.xml.flat",
+        "source": "com.example.pushapp-main-37:/drawable/ic_call.xml"
+    },
+    {
+        "merged": "com.example.pushapp-merged_res-36:/drawable_ic_info.xml.flat",
+        "source": "com.example.pushapp-main-37:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.example.pushapp-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.pushapp-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.pushapp-merged_res-36:/drawable_ic_sms.xml.flat",
+        "source": "com.example.pushapp-main-37:/drawable/ic_sms.xml"
+    },
+    {
+        "merged": "com.example.pushapp-merged_res-36:/drawable_ic_notification.xml.flat",
+        "source": "com.example.pushapp-main-37:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.example.pushapp-merged_res-36:/layout_item_log.xml.flat",
+        "source": "com.example.pushapp-main-37:/layout/item_log.xml"
+    },
+    {
+        "merged": "com.example.pushapp-merged_res-36:/drawable_ic_webhook.xml.flat",
+        "source": "com.example.pushapp-main-37:/drawable/ic_webhook.xml"
+    }
+]
