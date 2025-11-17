@@ -26,7 +26,8 @@
 ## 下载 APP
 
 - 直接下载 APK（调试版）：
-  - https://raw.githubusercontent.com/louislili/BatteryPush/main/dist/BatteryPush.apk
+  - https://github.com/louislili/BatteryPush/raw/main/app/build/outputs/apk/debug/app-debug.apk
+  - 也可在 Releases 标签页查看 `v1.0`
 
 ## 应用定位
 
